@@ -7,7 +7,7 @@
 body {
   font-family: 'Helvetica';
   padding-top: 54px;
-  color: white;
+  color: #868e96;
 }
 
 @media (min-width: 992px) {
@@ -209,4 +209,6 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+
 
