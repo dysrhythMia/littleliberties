@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Helvetica';
   padding-top: 54px;
   color: #868e96;
 }
@@ -23,10 +23,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Helvetica';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #431E15;
 }
 
 h1 {
@@ -50,7 +50,7 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Helvetica';
   font-size: 1.5rem;
 }
 
@@ -58,7 +58,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #D1930D;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
@@ -71,16 +71,24 @@ p.lead {
   margin-right: 0;
 }
 
-.social-icons a:hover {
-  background-color: #BD5D38;
+.social-icons {
+  padding-left: 33%;
+  padding-bottom: 5%;
+  padding-right: 33%;
 }
+
+.social-icons a:hover {
+  background-color: #D1930D;
+}
+
+
 
 .dev-icons {
   font-size: 3rem;
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #D1930D;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +98,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color:#D1930D;
 }
 
 @media (min-width: 992px) {
@@ -160,17 +168,45 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #D1930D !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #D1930D !important;
+}
+
+
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+
+.team-members {
+  padding-top: 12%;
 }
 
 a {
-  color: #BD5D38;
+  color: #D1930D;
 }
 
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
